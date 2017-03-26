@@ -6,7 +6,7 @@
 package ejercicio3;
 
 /**
- *
+ * La interfaz datos nos valdrá para mostrar los recibos
  * @author Felipe
  */
 public interface Datos 

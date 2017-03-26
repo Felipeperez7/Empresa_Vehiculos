@@ -6,7 +6,7 @@
 package ejercicio3;
 
 /**
- *
+ * Esta es la clase principal
  * @author Felipe
  */
 public class Ejercicio3 {

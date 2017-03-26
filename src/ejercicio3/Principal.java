@@ -6,7 +6,7 @@
 package ejercicio3;
 
 /**
- *
+ * En esta clase vamos introducir los métodos necesarios para que funcione el programa
  * @author Felipe
  */
 public class Principal 

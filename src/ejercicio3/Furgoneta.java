@@ -6,22 +6,33 @@
 package ejercicio3;
 
 /**
- *
+ * La clase Furgoneta es un tipo de vehículo
  * @author Felipe
  */
 public class Furgoneta extends VehiculoCarga
 {
-
+    /**
+     * Constructor por defecto
+     */
     public Furgoneta() 
     {
         super();
     }
 
+    /**
+     * Constructor por parámetros
+     * @param tara indica la tara del vehículo
+     * @param matricula indica la matrícula del vehículo
+     * @param dias_alquiler indica los días de alquiler del vehículo
+     */
     public Furgoneta(int tara, String matricula, int dias_alquiler) 
     {
         super(tara, matricula, dias_alquiler);
     }
-
+    
+    /**
+     * El método recibo imprime un recibo de la factura
+     */
     @Override
     public void recibo()
     {
@@ -34,6 +45,10 @@ public class Furgoneta extends VehiculoCarga
         + "\nImporte: " + this.importeAlquiler() + " €");
     }
     
+    /**
+     * Calcula el importe del alquiler
+     * @return indica el importe del alquiler
+     */
     @Override
     public double importeAlquiler() {
         double alquiler = (50 * super.getDias_alquiler()) + (20 * super.getTara());
